@@ -1,9 +1,13 @@
+import SaludoPrincipal from "./components/SaludoPrincipal"
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
 
   return (
     <>
-      <h1>Hola mundo</h1>
+      <SaludoPrincipal 
+        saludo="My Friend..."
+      />
     </>
   )
 }
