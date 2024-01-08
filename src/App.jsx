@@ -1,9 +1,12 @@
+import SaludoPrincipal from "./components/SaludoPrincipal"
 
 function App() {
 
   return (
     <>
-      <h1>Hola mundo</h1>
+      <SaludoPrincipal 
+        saludo="My Friend..."
+      />
     </>
   )
 }
